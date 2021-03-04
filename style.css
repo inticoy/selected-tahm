@@ -45,4 +45,15 @@ a{
     padding:10px;
 
   }
+  #indexPic img{
+    display:block;
+    margin:0px auto;
+    width:400px;
+    height:auto;
+  }
+  iframe{
+    display:block;
+    margin:0px auto;
+    width:400px;
+  }
 }
