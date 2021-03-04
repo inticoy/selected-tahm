@@ -1,0 +1,37 @@
+body{
+  background-color: gold;
+}
+a{
+  color:black;
+  text-decoration:none;
+}
+#title{
+  display:grid;
+  grid-template-columns: 2fr 3fr;
+  height: 100px;
+}
+#title img{
+  width:100px;
+  height: 100px;
+  margin-left:auto;
+  margin-right:20px;
+  float:right
+}
+#title h1{
+  text-align:left;
+}
+
+#middle{
+  display:grid;
+  grid-template-columns: 300px 1fr;
+}
+#middle ol{
+  border-right: 2px dashed coral;
+  font-weight: bold;
+  font-size: 18px;
+  margin:18px;
+
+}
+#middle contents{
+  margin:15px;
+}
