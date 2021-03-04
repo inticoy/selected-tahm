@@ -35,3 +35,14 @@ a{
 #middle contents{
   margin:15px;
 }
+@media(max-width:800px) {
+  #middle{
+    display:block
+  }
+  #middle ol{
+    border-right:none;
+    border-bottom: 2px solid coral;
+    padding:10px;
+
+  }
+}
